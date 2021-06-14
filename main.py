@@ -26,6 +26,7 @@ while i > 0:
                 "enter 'yes' if u wanna play again \n else enter 'no' to exit:"
             )
             if cont == 'no':
+                i=0
                 break
             if cont == 'yes':
                 i = 1
