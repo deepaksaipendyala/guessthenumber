@@ -11,7 +11,7 @@
 i = 1
 while i > 0:
     import random
-    a = random.randint(0, 100)
+    a = random.randint(0, 3)
     print('you will have only 5 chances to guess ')
     chance = 0
     while chance < 5:
@@ -26,7 +26,7 @@ while i > 0:
                 "enter 'yes' if u wanna play again \n else enter 'no' to exit:"
             )
             if cont == 'no':
-                i=0
+                i = 0
                 break
             if cont == 'yes':
                 i = 1
